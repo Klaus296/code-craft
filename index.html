@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="icon.jpg">
+  <script src="script.js"></script>
+  <title>Мій YouTube Канал | Програмування</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-gray-800 p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">CodeCraft</h1>
+      <nav class="space-x-4">
+        <a href="#about" class="hover:text-teal-400">Про мене</a>
+        <a href="#videos" class="hover:text-teal-400">Відео</a>
+        <a href="#projects" class="hover:text-teal-400">Проєкти</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-gradient-to-b from-gray-900 to-gray-800">
+    <h2 class="text-4xl font-bold mb-4">Програмуй разом зі мною!</h2>
+    <p class="text-lg text-gray-300 mb-6">Вивчай Python, створюй ігри, сайти та багато іншого.</p>
+    <a href="https://www.youtube.com/@darkklaus7636" target="_blank" class="bg-teal-500 text-white px-6 py-2 rounded hover:bg-teal-600">Переглянути канал</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-4 max-w-4xl mx-auto">
+    <h3 class="text-3xl font-bold mb-6">Про мене</h3>
+    <p class="text-gray-300">Привіт! Я — розробник, який ділиться знаннями з програмування на своєму каналі. Моє хобі — створювати ігри, сайти та навчальні проєкти, щоб допомагати іншим вчитися ефективно.</p>
+  </section>
+
+  <!-- Videos Section -->
+  <section id="videos" class="py-16 px-4 bg-gray-800">
+    <div class="max-w-5xl mx-auto">
+      <h3 class="text-3xl font-bold mb-6">Останні відео</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Приклад відео -->
+        <div class="bg-gray-700 p-4 rounded-lg shadow">
+          <iframe src="https://www.youtube.com/embed/KkWdoh0RDDk?si=KXFSXbmkH5dz7mTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>          
+          <h4 class="mt-2 font-semibold">Лучшее обучение HTML в мире | #1</h4>
+        </div>
+        <div class="bg-gray-700 p-4 rounded-lg shadow">
+            <iframe src="https://www.youtube.com/embed/uCvXroveXCQ?si=Gac4gmCHNWjgWZDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4 class="mt-2 font-semibold">Написал вирус на Python — ЧТО ПРОИЗОШЛО?! 😱</h4>
+        </div>
+
+        <!-- Додати інші відео -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 px-4 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-bold mb-6">Мої проєкти</h3>
+    <ul class="space-y-4">
+      <li class="bg-gray-800 p-4 rounded">
+        <h4 class="font-semibold text-lg">🎮 The Ratling Abyth</h4>
+        <p class="text-gray-300">Pygame <a href="https://github.com/yourgithub" class="text-teal-400 underline">GitHub</a></p>
+        <p class="text-gray-300">Python, власна анімація персонажів</p>
+      </li>
+    </ul>
+  </section>
+  <!-- Footer -->
+  <footer class="text-center text-gray-500 py-6 bg-gray-900 border-t border-gray-700">
+    © 2025 CodeCraft — Твій гід у світ програмування!
+  </footer>
+
+</body>
+</html>
